@@ -1,0 +1,35 @@
+{
+  "name": "media-player-with-playable-demo",
+  "version": "1.0.0",
+  "description": "My demonstration of how media player can be used with Playable component to playback any time series data 😊",
+  "keywords": [],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@types/hls.js": "0.13.3",
+    "@types/lodash": "4.14.168",
+    "@types/node": "14.14.22",
+    "@xstate/fsm": "1.5.2",
+    "hls.js": "0.14.17",
+    "lodash": "4.17.20",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-scripts": "4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.0",
+    "@types/react-dom": "17.0.0",
+    "typescript": "4.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
